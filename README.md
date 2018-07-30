@@ -22,3 +22,13 @@ Where do i put the static-nodes.json file?
 ```<datadir>/egem/static-nodes.json```
 
 ```~/live-net/egem/static-nodes.json```
+
+
+Turn off the node then use the command.
+```rm -r ~/live-net/egem/static-nodes.json```
+
+Then use this to update the list.
+``` cd ~/live-net/egem/ && wget https://raw.githubusercontent.com/TeamEGEM/EGEM-Bootnodes/master/static-nodes.json ```
+
+Then a just start the node back up with this command.
+```cd ~/go-egem && screen -dmS go-egem /root/go-egem/build/bin/egem --datadir ~/live-net/ --maxpeers 100 --rpc```
