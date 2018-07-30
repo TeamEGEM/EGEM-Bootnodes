@@ -20,4 +20,5 @@ So it should look something like this when done:
 Where do i put the static-nodes.json file?
 
 ```<datadir>/egem/static-nodes.json```
+
 ```~/live-net/egem/static-nodes.json```
