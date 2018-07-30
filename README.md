@@ -23,6 +23,7 @@ Where do i put the static-nodes.json file?
 
 ```~/live-net/egem/static-nodes.json```
 
+# How to update node list.
 
 Turn off the node then use the command.
 ```rm -r ~/live-net/egem/static-nodes.json```
